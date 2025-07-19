@@ -1,14 +1,14 @@
 import React from 'react';
 import CardList from '../components/CardList';
 import '../pages/Projects.css';
-import image1 from 'src/assets/img/solfege.jpg';
-import image2 from 'src/assets/img/itinerary.png';
-import image3 from 'src/assets/img/date-difference-calculator-d94-1200-calenup.webp'
-import image4 from 'src/assets/img/date-difference-calculator-d94-1200-calenup.webp'
-import image5 from 'src/assets/img/Components-1-1024x482.png';
-import image6 from 'src/assets/img/ChatGPT Image Jul 2, 2025, 12_53_13 AM.png';
-import image7 from 'src/assets/img/samosa.png';
-import image8 from 'src/assets/img/build.png'
+import image1 from '../assets/img/solfege.jpg';
+import image2 from '../assets/img/itinerary.png';
+import image3 from '../assets/img/date-difference-calculator-d94-1200-calenup.webp';
+import image4 from '../assets/img/date-difference-calculator-d94-1200-calenup.webp';
+import image5 from '../assets/img/Components-1-1024x482.png';
+import image6 from '../assets/img/ChatGPT Image Jul 2, 2025, 12_53_13 AM.png';
+import image7 from '../assets/img/samosa.png';
+import image8 from '../assets/img/build.png';
 
 // sort prokects into language / field 
 const events = [
