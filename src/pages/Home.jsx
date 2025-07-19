@@ -1,12 +1,12 @@
 import React from 'react';
-// import logo from ;
+import logo from "../assets/IMG_0822.PNG";
 import '../pages/Home.css'; // Adjust the path as necessary
 
 const Home = () => {
   return (
     <div className="content-container">
       <div className="image-side">
-    <img src="../assets/IMG_0822.PNG" alt="Logo" className="image" />
+    <img src={logo} alt="Logo" className="image" />
   </div>
       <div className="text-container">
         <h1>Welcome!</h1>
