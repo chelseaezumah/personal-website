@@ -1,14 +1,14 @@
 import React from 'react';
 import CardList from '../components/CardList';
 import '../pages/Projects.css';
-import image1 from '/Users/chelseaezumah/Documents/GitHub/web102/personal-project/src/assets/img/solfege.jpg';
-import image2 from '/Users/chelseaezumah/Documents/GitHub/web102/personal-project/src/assets/img/itinerary.png';
-import image3 from '/Users/chelseaezumah/Documents/GitHub/web102/personal-project/src/assets/img/date-difference-calculator-d94-1200-calenup.webp'
-import image4 from '/Users/chelseaezumah/Documents/GitHub/web102/personal-project/src/assets/img/v4-460px-Convert-from-Decimal-to-Hexadecimal-Step-9-Version-4.jpg'
-import image5 from '/Users/chelseaezumah/Documents/GitHub/web102/personal-project/src/assets/img/Components-1-1024x482.png';
-import image6 from '/Users/chelseaezumah/Documents/GitHub/web102/personal-project/src/assets/img/ChatGPT Image Jul 2, 2025, 12_53_13 AM.png';
-import image7 from '/Users/chelseaezumah/Documents/GitHub/web102/personal-project/src/assets/img/samosa.png';
-import image8 from '/Users/chelseaezumah/Documents/GitHub/web102/personal-project/src/assets/img/build.png'
+import image1 from 'src/assets/img/solfege.jpg';
+import image2 from 'src/assets/img/itinerary.png';
+import image3 from 'src/assets/img/date-difference-calculator-d94-1200-calenup.webp'
+import image4 from 'src/assets/img/date-difference-calculator-d94-1200-calenup.webp'
+import image5 from 'src/assets/img/Components-1-1024x482.png';
+import image6 from 'src/assets/img/ChatGPT Image Jul 2, 2025, 12_53_13 AM.png';
+import image7 from 'src/assets/img/samosa.png';
+import image8 from 'src/assets/img/build.png'
 
 // sort prokects into language / field 
 const events = [
