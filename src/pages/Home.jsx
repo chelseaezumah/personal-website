@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../assets/IMG_0822.PNG";
+import logo from "../assets/IMG_0822.png";
 import '../pages/Home.css'; // Adjust the path as necessary
 
 const Home = () => {
