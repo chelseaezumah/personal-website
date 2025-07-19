@@ -1,7 +1,7 @@
 /* Parent container for the image and text */
 /* Add a background image to the entire page */
 body {
-  background-image: url('../assets/24211dbf-ee31-4581-a73d-08f81ef94998.png'); /* Replace with your image path */
+  background-image: url('src/assets/24211dbf-ee31-4581-a73d-08f81ef94998.png'); /* Replace with your image path */
   background-size: cover; /* Ensure the image covers the entire background */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -92,6 +92,55 @@ body {
     font-weight: 400;
     
   }
-  /* .footer{
-    background-color: aliceblue;
-  } */
+  
+
+  @media (max-width: 768px) {
+    .content-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .text-container {
+      width: 100%;
+      margin-top: 30px;
+      padding: 10px;
+    }
+  
+    .text-container h1 {
+      font-size: 3rem;
+    }
+  
+    .text-container h2 {
+      font-size: 1.2rem;
+    }
+  
+    .text-container p {
+      font-size: 0.95rem;
+    }
+  
+    .image {
+      width: 90%;
+      max-width: 100%;
+    }
+  
+    .text-container button {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .text-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .text-container h2 {
+      font-size: 1rem;
+    }
+  
+    .text-container p {
+      font-size: 0.9rem;
+    }
+  }
