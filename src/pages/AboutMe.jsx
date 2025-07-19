@@ -1,10 +1,11 @@
 import React from 'react';
 import '../pages/AboutMe.css';
+import {resumeImage} from "../assets/chelsea-resume.png";
 
 const AboutMe = () => {
   return (
     <div className="container">
-      <img className="poop" src="../assets/chelsea-resume.png" alt="Chelsea Ezumah Resume" />
+      <img className="poop" src={resumeImage} alt="Chelsea Ezumah Resume" />
       
       <div className="text-content">
         <h1>You can view my resume here. </h1>
