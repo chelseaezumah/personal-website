@@ -90,8 +90,8 @@ const events = [
 const TimelineSlider = () => {
     
   return (
-    <section className="px-6 py-10 bg-white">
-      <div className="flex justify-between items-center mb-6">
+    <section className="timeline-wrapper">
+      <div className="timeline-overlay">
         <h1 className='helloworld'>My Journey In Tech</h1>
         {/* <select className="border rounded px-3 py-1 text-sm">
           <option>2007</option>
@@ -101,28 +101,29 @@ const TimelineSlider = () => {
       </div>
 
       <Swiper
-        spaceBetween={30}
-        slidesPerView={1.1}
-        breakpoints={{
-          640: { slidesPerView: 1.3 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-        }}
-        navigation
-        modules={[Navigation]}
-      >
-        {events.map((event, idx) => (
-          <SwiperSlide key={idx}>
-            <div className="rounded-lg border shadow-sm overflow-hidden bg-white">
-              <div className="p-4">
-                <h2>{event.name} </h2>
-                <h3 className ="name">{event.title}</h3>
-                <p className="paragraph">{event.description}</p>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+  spaceBetween={20}
+  slidesPerView={1.05}
+  breakpoints={{
+    640: { slidesPerView: 1.3 },
+    768: { slidesPerView: 2 },
+    1024: { slidesPerView: 3 },
+  }}
+  navigation
+  modules={[Navigation]}
+>
+  {events.map((event, idx) => (
+    <SwiperSlide key={idx}>
+      <div className="timeline-card">
+        <div className="timeline-body">
+          <h2 className="hello-world">{event.name}</h2>
+          <h3 className="name">{event.title}</h3>
+          <p className="timeline-description">{event.description}</p>
+        </div>
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
+
     </section>
     
   );
