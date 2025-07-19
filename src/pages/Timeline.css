@@ -1,0 +1,34 @@
+.timeline-card {
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .timeline-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .timeline-image {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+  }
+  
+  .timeline-body {
+    padding: 1rem;
+  }
+  
+  .timeline-title {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .timeline-description {
+    color: #6b7280; /* Tailwind gray-600 */
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  

@@ -1,0 +1,63 @@
+.timeline-card {
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .timeline-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  
+  .timeline-body {
+    padding: 1rem;
+  }
+  
+  .timeline-title {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .timeline-description {
+    color: #6b7280; /* Tailwind gray-600 */
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  .name{
+    color: rgba(93, 155, 107, 0.8);
+  }
+  .helloworld {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    animation: float 3s ease-in-out infinite;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Move up */
+    }
+    100% {
+      transform: translateY(0); /* Move back to original position */
+    }
+  }
+ /* Make Swiper navigation arrows bold and white */
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+  font-weight: 900;       /* Makes the arrow bold */
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Optional: add glow for visibility */
+  background-color: rgba(0, 0, 0, 0.4); /* Optional: semi-transparent background */
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* Increase size if needed */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 24px; /* Adjust for size */
+  font-weight: 900;
+}
