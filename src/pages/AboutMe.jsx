@@ -4,7 +4,7 @@ import '../pages/AboutMe.css';
 const AboutMe = () => {
   return (
     <div className="container">
-      <img className="poop" src="../assets/CHELSEA EZUMAH RESUME (1).png" alt="Chelsea Ezumah Resume" />
+      <img className="poop" src="../assets/chelsea-resume.png" alt="Chelsea Ezumah Resume" />
       
       <div className="text-content">
         <h1>You can view my resume here. </h1>
